@@ -1,0 +1,22 @@
+body {
+  font: 14px Helvetica Neue;
+  text-rendering: optimizeLegibility;
+  margin-top: 1em;
+  overflow-y: scroll;
+}
+
+.content {
+  position: relative;
+  margin-left: 240px;
+}
+
+.content img {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: .3em;
+}

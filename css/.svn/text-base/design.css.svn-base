@@ -1,0 +1,145 @@
+@CHARSET "ISO-8859-1";
+
+#b1 {
+	height: 50px;
+	width: 50px;
+	background: black;
+}
+
+#b2 {
+	height: 50px;
+	width: 50px;
+	background: blue;
+	margin-top: 10px;
+}
+
+/* -- General style -- */
+
+body {
+	position: absolute;
+	margin: auto;
+	width: 960px;
+	font: 14px Helvetica Neue;
+	text-rendering: optimizeLegibility;
+	margin: 30px 20px;
+	overflow-y: scroll;
+	z-index: 1;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: .3em;
+}
+
+
+/* -- Streamgraph Style -- */
+
+#streamgraph {
+  font: 10px sans-serif;
+  margin: 10px 0;
+}
+
+svg path {
+	position: relative;
+}
+
+/* -- Treemap style -- */
+
+#treemap {
+  margin: 10px 0;
+}
+
+.cell {
+    border: 1px solid white;
+    font: 15px/17px sans-serif;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 0px;
+}
+.cell.selected {
+    border-color: black;
+    z-index: 5;
+}
+.details {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid black;
+    border-radius: 7px 0 0 0;
+    display: none;
+    margin: 10px 0px 0px 10px;
+    padding: 10px;
+    position: absolute;
+    width: 200px;
+    z-index: 10;
+}
+.details .size {
+    font-weight: bold;
+}
+.details .name {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.title {
+	font-weight: bold;
+	z-index: 2;
+	position: absolute;
+	background-color: white;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	opacity: 0.4;
+};
+
+.img {
+	position: relative;
+}
+
+/* -- Style for the selectors -- */
+
+div.selecteur {
+	width: 10px;
+	height: 300px;
+	z-index: 2;
+	position: absolute;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 2px 0px;
+}
+
+div.selecteur.gauche {
+	border-left-width: 2px;
+	left: 0px;
+}
+
+div.selecteur.droite {
+	border-right-width: 2px;
+	left: 890px;
+}
+
+div.selection {
+	height: 300px;
+	z-index: 2;
+	position: absolute;
+	opacity: 0.1;
+}
+
+div.cache {
+	background-color:#000000;
+	opacity:0.3;
+	height: 302px;
+	z-index: 2;
+	position: absolute;
+}
+
+div.cache.droite {
+	width: 0px;
+	left: 900px;
+}
+
+div.cache.gauche {
+	width: 0px;
+}

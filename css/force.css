@@ -1,0 +1,26 @@
+circle.node {
+  stroke: #fff;
+  stroke-width: 0.75px;
+}
+
+line.link {
+  stroke: #999;
+  stroke-opacity: 0;
+}
+
+body {
+	position: relative;	
+}
+
+#infos {
+	background: white;
+	border: solid black 1px;
+	font-weight: bold;
+	height: 50px;
+	position: absolute;
+	width: 200px;
+	z-index: 10;
+}
+
+#infos.selected {
+}
