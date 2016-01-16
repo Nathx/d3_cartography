@@ -1,5 +1,5 @@
 # d3_cartography
-Creating a visual cartography display for clustered multimedia data.
+Creating a visual cartography display for clustered multimedia data. 
 
 This project uses the following libraries:
 * d3.js
