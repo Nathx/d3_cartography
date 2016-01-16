@@ -2,7 +2,7 @@
 Creating a visual cartography display for clustered multimedia data. 
 
 This project uses the following libraries:
-* d3.js
+* d3.js 
 * paper.js
 * jQuery.js
 
